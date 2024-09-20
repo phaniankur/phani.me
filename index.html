@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Ankur Phani</title>
+    <link href="https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./index.css">
+</head>
+
+<body>
+    <header class="main-header">
+        <nav>
+            <a href="#about" class="nav-link">About</a>
+            <!-- <a href="#skills" class="nav-link">Skills</a> -->
+            <a href="#projects" class="nav-link">Projects</a>
+            <!-- <a href="#contact" class="nav-link">Contact</a> -->
+        </nav>
+    </header>
+
+    <section class="hero" id="hero">
+        <div class="terminal">
+            <div class="terminal-header">
+                <span class="dot red"></span>
+                <span class="dot yellow"></span>
+                <span class="dot green"></span>
+            </div>
+            <div class="terminal-body">
+                <div class="name-container">
+
+                    <span class="prompt">$</span> <span class="command">Ankur</span><span class="cursor">|</span>
+                </div>
+                <p class="subtitle">The Frontend Guy 👨🏻‍💻 | Building Craveo</p>
+                <p class="description">Specializing in frontend engineering and mobile app development. As a tech
+                    enthusiast, I am passionate about solving real-world problems through technology.
+            </div>
+        </div>
+    </section>
+
+
+    <section class="about" id="about">
+        <div class="container">
+            <h2 class="header2">About Me</h2>
+            <!-- <p> I hold a degree in Electronics and Communication Engineering from SRM Institute of Technology, Chennai.
+                I have worked 4 years in building frontend and mobile applications, along with gaining valuable insights
+                into sales and business operations.
+            </p>&nbsp; -->
+            <p><a class="links" href="https://craveo.co.in/">Craveo</a> was started in 2023 with an aim to provide best possible offers on every food order. Craveo is the Skyscanner for online food
+                ordering in India. My primary role is in Product Engineering, building the application for millions of
+                users. We launched our MVP in June'24 and scaled to <b>200K users</b> within a few weeks.</p> &nbsp;
+
+            <p>In 2023, I started a small business in Varanasi, a city renowned for its iconic ganga-aarti and boat
+                rides. Recognizing
+                the fragmented boat booking market and the lack of any streamlined booking process, I built
+                <a class="links" href="https://www.boatrr.in/">Boatrr</a>, a chat based booking solution that simplified the boat ride experience
+                by eliminating
+                all the haggling and high prices charged by boaters. The business made Rs.10000/- in it’s first month
+                but scaling the
+                business proved challenging due to limited word-of-mouth traction and budget constraints. The business
+                remains highly
+                asset-light while still offering boat booking services through phone calls.
+            </p>
+        </div>
+    </section>
+
+    <!-- <section class="skills" id="skills">
+        <div class="container">
+            <h2>Skills</h2>
+            <div class="skills-list">
+                <div class="skill-item">
+                    <h3>Languages & Frameworks</h3>
+                    <ul>
+                        <li>React Native</li>
+                        <li>React.js</li>
+                        <li>TypeScript</li>
+                        <li>JavaScript (ES6+)</li>
+                    </ul>
+                </div>
+                <div class="skill-item">
+                    <h3>Tools & Platforms</h3>
+                    <ul>
+                        <li>Redux</li>
+                        <li>Node.js</li>
+                        <li>Expo</li>
+                        <li>Git</li>
+                    </ul>
+                </div>
+                <div class="skill-item">
+                    <h3>Other</h3>
+                    <ul>
+                        <li>UI/UX Design</li>
+                        <li>Agile Methodology</li>
+                        <li>CI/CD Pipelines</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section> -->
+
+    <section class="projects" id="projects">
+        <div class="container">
+            <h2>Projects</h2>
+            <div class="project-list">
+                <div class="project-item">
+                    <h3>Google Pay - Monthly Expense Calculator - Python | 2023</h3>
+                    <p>Scraped Google Takeout data, parsed and transformed the dataset, then dynamically sorted and appended it into a structured CSV file in Python</p>
+                    <a href="https://github.com/phaniankur/google-pay-expense-calculator" target="_blank" class="btn">View Project</a>
+                </div>
+                <div class="project-item">
+                    <h3>Covid Certificate Downloader - React JS | 2021</h3>
+                    <p>Tech Used: React js, crypto-js and https://apisetu.gov.in/ API.
+                        Achieved downloading of all beneficiaries’ certificate linked to accound.</p>
+                    <a href="https://jabbed.netlify.app/" target="_blank" class="btn">View Project</a>
+                </div>
+                <!-- Add more projects here -->
+            </div>
+        </div>
+    </section>
+
+    <section class="contact" id="contact">
+        <div class="container">
+            <h2>I can be reached at:</h2>
+            <!-- <p>If you'd like to discuss a project or just want to say hi, feel free to drop a message.</p> -->
+            <a href="https://github.com/phaniankur" class="btn">Gitub</a>
+            <a href="https://www.linkedin.com/in/ankurphani/" class="btn">LinkedIn</a>
+            <a href="https://x.com/AnkurPhani" class="btn">Twitter</a>
+            <a href="mailto:contact.ankurphani@gmail.com" class="btn">Email</a>
+        </div>
+    </section>
+
+    <footer class="main-footer">
+        <p>&copy; 2024 Ankur Phani</p>
+    </footer>
+</body>
+
+</html>
+<script>
+    document.addEventListener("DOMContentLoaded", function () {
+        const command = document.querySelector(".command");
+        const text = " Phani";
+        let index = 0;
+
+        function typeText() {
+            if (index < text.length) {
+                command.textContent += text.charAt(index);
+                index++;
+                setTimeout(typeText, 200);  // Delay between each character
+            }
+        }
+
+        typeText();
+    });
+</script>
