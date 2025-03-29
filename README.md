@@ -1,2 +1,2 @@
-## Static site for phani.me
+### Static site for phani.me
 
