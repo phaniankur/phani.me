@@ -1,6 +1,6 @@
 ---
-title: "The Frontend Guy 👨🏻‍💻"
-description: "Hi there"
+title: "Ankur Phani"
+description: "The Frontend Guy 👨🏻‍💻 | Co-Founder, Craveo"
 ---
 
 Hi, I'm Ankur Phani
