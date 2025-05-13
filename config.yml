@@ -111,7 +111,7 @@ outputs:
 params:
   env: production # to enable google analytics, opengraph, twitter-cards and schema.
   description: "Ankur Phani is the Co-founder of Craveo, where he is passionate about building AI-powered technologies to solve large-scale, real-world challenges."
-  keywords: [Ankur Phani, Craveo, Portfolio]"
+  keywords: [Ankur Phani, Craveo, Portfolio]
   # author: Ankur Phani
   # author: "Me" # multiple authors
 
