@@ -1,8 +1,8 @@
 # If your site is in 'https', then make sure your base url isn't written using 'http' otherwise your sitemap would
 # contain http (as opposeed to https) URLs. This would affect Google indexing of your URLs.
 baseURL: "https://adityatelange.github.io"
-title: The Frontend Guy
-copyright: "© Ankur Phani"
+title: Ankur Phani
+# copyright: "© Ankur Phani"
 # paginate: 5
 theme: [hugo-PaperMod]
 
@@ -27,10 +27,10 @@ languages:
     #   category: categories
     #   tag: tags
     #   series: series
-    # menu:
-    #   main:
-    #     - name: About Me
-    #       url: about-me
+    menu:
+      main:
+        - name: About Me
+          url: about-me
     #       weight: 2
     #     - name: Search
     #       url: search/
@@ -110,11 +110,12 @@ outputs:
 
 params:
   env: production # to enable google analytics, opengraph, twitter-cards and schema.
-  # description: "Theme PaperMod - https://github.com/adityatelange/hugo-PaperMod"
-  author: Ankur Phani
-  # author: ["Me", "You"] # multiple authors
+  description: "Ankur Phani | Co-founder, Craveo
+  keywords: [Ankur Phani, Craveo, Portfolio]"
+  # author: Ankur Phani
+  # author: "Me" # multiple authors
 
-  defaultTheme: auto
+  defaultTheme: light
   disableThemeToggle: true
   ShowShareButtons: false
   ShowReadingTime: false
@@ -128,7 +129,7 @@ params:
   ShowPageNums: false
   ShowToc: false
   comments: false
-  images: ["images/papermod-cover.png"]
+  images: ["images/phani_banner.jpg"]
 
   profileMode:
     # enabled: false
@@ -143,30 +144,41 @@ params:
       # - name: Tags
       #   url: tags
 
-  # homeInfoParams:
-  #   Title: "PaperMod's Demo"
-  #   Content: >
-  #     👋 Welcome to demo page of Hugo's theme PaperMod!
+  homeInfoParams:
+    # Title: "PaperMod's Demo"
+    Content: >
+      - Hi, I'm Ankur. 👋
 
-  #     - **PaperMod**  is designed to be clean and simple but fast and responsive theme with useful feature-set that enhances UX.
+      - I am currently building [**Craveo**](https://craveo.in) - AI Food Ordering Agent.
+      
+      - 2025 is probably one of the best times to build consumer AI products. There are countless opportunities where AI can offer powerful results. 
 
-  #     - Feel free to show your support by giving us a star 🌟 on GitHub and sharing with your friends and social media .
+      - The real question is: *are we leveraging this technology enough?*
 
-  #     - PaperMod is based on theme [Paper](https://github.com/nanxiaobei/hugo-paper/tree/4330c8b12aa48bfdecbcad6ad66145f679a430b3).
+      -
+      
+      - Here is more [about me](/about-me).
 
-  # socialIcons:
-  #   - name: github
-  #     title: View Source on Github
-  #     url: "https://github.com/adityatelange/hugo-PaperMod"
+      - 
+
+      - I can be reached at: 👇
+
+  socialIcons:
+    - name: LinkedIn
+      title: Connect with me on LinkedIn
+      url: "https://www.linkedin.com/in/ankurphani/"
+    - name: X
+      title: Connect with me on X
+      url: "https://x.com/AnkurPhani"
+    - name: Email
+      title: You can email me
+      url: "mailto:contact.ankurphani@gmail.com"
+    # - name: github
+    #   title: Some projects I am working on.
+    #   url: "https://github.com/phaniankur"
   #   - name: Discord
   #     title: Join discord community
   #     url: "https://discord.gg/ahpmTvhVmp"
-  #   - name: X
-  #     title: Share PaperMod on X/Twitter
-  #     url: "https://x.com/intent/tweet/?text=Checkout%20Hugo%20PaperMod%20%E2%9C%A8%0AA%20fast,%20clean,%20responsive%20Hugo%20theme.&url=https://github.com/adityatelange/hugo-PaperMod&hashtags=Hugo,PaperMod"
-  #   - name: KoFi
-  #     title: Buy me a Ko-Fi :)
-  #     url: "https://ko-fi.com/adityatelange"
 
   # editPost:
   #   URL: "https://github.com/adityatelange/hugo-PaperMod/tree/exampleSite/content"
@@ -179,9 +191,9 @@ params:
   # icon: icon.png
   # iconHeight: 35
 
-  # analytics:
-  #     google:
-  #         SiteVerificationTag: "XYZabc"
+  analytics:
+      google:
+          SiteVerificationTag: "bCbhFHHA--2EbPZDH42SfOL1j8jhWbtnOyoJQICdoyI"
 
   assets:
     disableHLJS: true
