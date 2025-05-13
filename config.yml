@@ -1,6 +1,6 @@
 # If your site is in 'https', then make sure your base url isn't written using 'http' otherwise your sitemap would
 # contain http (as opposeed to https) URLs. This would affect Google indexing of your URLs.
-baseURL: "https://adityatelange.github.io"
+baseURL: "https://phani.me"
 title: Ankur Phani
 # copyright: "© Ankur Phani"
 # paginate: 5
@@ -110,7 +110,7 @@ outputs:
 
 params:
   env: production # to enable google analytics, opengraph, twitter-cards and schema.
-  description: "Ankur Phani | Co-founder, Craveo
+  description: "Ankur Phani is the Co-founder of Craveo, where he is passionate about building AI-powered technologies to solve large-scale, real-world challenges."
   keywords: [Ankur Phani, Craveo, Portfolio]"
   # author: Ankur Phani
   # author: "Me" # multiple authors
