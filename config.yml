@@ -115,7 +115,7 @@ params:
   # author: Ankur Phani
   # author: "Me" # multiple authors
 
-  defaultTheme: light
+  defaultTheme: dark
   disableThemeToggle: true
   ShowShareButtons: false
   ShowReadingTime: false
