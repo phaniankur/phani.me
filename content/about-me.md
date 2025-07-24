@@ -15,7 +15,7 @@ I hold a degree in Electronics and Communication Engineering from SRM Institute 
 
 ![](/images/img1.webp "deploying some last minute changes")
 
-I started working on [Craveo](https://craveo.co.in/) since 2023. Craveo is the Skyscanner for online food ordering in India. My primary role is in Product Engineering, building the application for millions of users. We launched our MVP in June'24 and scaled to 200K users within a few weeks.
+I started working on [Craveo](https://craveo.co.in/) since 2023. Craveo Comparison is the Skyscanner for online food ordering in India. My primary role is in Product Engineering, building the application for millions of users. We launched our MVP in June'24 and scaled to 200K users within a few weeks.
 
 In 2022, I started a small business in Varanasi, a city renowned for its iconic ganga-aarti and boat rides. Recognizing the fragmented boat booking market and the lack of any streamlined booking process, I built [Boatrr](https://www.boatrr.in/), a chat based booking solution that simplified the boat ride experience by eliminating all the haggling and high prices charged by boaters. The business made Rs.10000/- in it’s first month but scaling the business proved challenging due to limited word-of-mouth traction and budget constraints. The business remains highly asset-light while still offering boat booking services through phone calls.
 
