@@ -13,7 +13,7 @@ buildFuture: false
 buildExpired: false
 enableEmoji: true
 pygmentsUseClasses: true
-mainsections: ["posts", "papermod"]
+mainsections: ["blog", "papermod"]
 
 minify:
   disableXML: true
@@ -31,6 +31,8 @@ languages:
       main:
         - name: About Me
           url: about-me
+        - name: Blog
+          url: blog
     #       weight: 2
     #     - name: Search
     #       url: search/
@@ -84,23 +86,23 @@ languages:
   #           url: https://github.com/adityatelange/hugo-PaperMod/wiki/Features#profile-mode
 
   # fa:
-    # languagedirection: rtl
-    # weight: 3
-    # title: PaperMod RTL
-    # taxonomies:
-    #   category: FAcategories
-    #   tag: FAtags
-    #   series: FAseries
-    # menu:
-    #   main:
-    #     - name: FATags
-    #       url: fatags
-    #       weight: 10
-    # # custom params for each language should be under [langcode].parms - hugo v0.120.0
-    # params:
-    #   homeInfoParams:
-    #     Title: "Hi there \U0001F44B"
-    #     Content: Welcome to RTL layout
+  # languagedirection: rtl
+  # weight: 3
+  # title: PaperMod RTL
+  # taxonomies:
+  #   category: FAcategories
+  #   tag: FAtags
+  #   series: FAseries
+  # menu:
+  #   main:
+  #     - name: FATags
+  #       url: fatags
+  #       weight: 10
+  # # custom params for each language should be under [langcode].parms - hugo v0.120.0
+  # params:
+  #   homeInfoParams:
+  #     Title: "Hi there \U0001F44B"
+  #     Content: Welcome to RTL layout
 
 outputs:
   home:
@@ -110,7 +112,7 @@ outputs:
 
 params:
   env: production # to enable google analytics, opengraph, twitter-cards and schema.
-  description: "Ankur Phani is the Co-founder of Craveo, where he is passionate about building AI-powered technologies to solve large-scale, real-world challenges."
+  description: "Ankur Phani is the Co-founder of Craveo Labs, where he is passionate about building AI products. Currently working on LLMLab"
   keywords: [Ankur Phani, Craveo, Portfolio]
   # author: Ankur Phani
   # author: "Me" # multiple authors
@@ -149,19 +151,25 @@ params:
     Content: >
       - Hi, I'm Ankur. 👋
 
-      - I am currently building [**Remy**](https://craveo.in) - AI Food Ordering Assistant.
+      - I am currently building [**LLMLab**](https://craveo.in/llmlab).
 
-      - I believe 2025 is probably one of the best times to build consumer AI products. There are countless opportunities where AI can offer powerful results. 
+      - For past three years, I have operated as a full-stack engineer, built scalable mobile & web apps and AI agents. Currently, I am exploring GTM and business side of the startup.
 
-      - The question is: *are we leveraging this technology enough?*
+      - 
+
+      - Previously scaled Craveo comparison app to 300K+ users.
+
+      - Scaled Remy: AI-powered food ordering to 10K+ user base.
+
+      - 
+
+      - 2025 was probably one of the best years to startup. 2026 is the best year to iterate, experiment and scale.
+
+      - Here is more about [**me**](/work).
 
       -
 
-      - Here is more about my [**work**](/work).
-
-      -
-
-      - I can be reached at: 👇
+      - Reach out at: 👇
 
   socialIcons:
     - name: LinkedIn
@@ -172,7 +180,7 @@ params:
       url: "https://x.com/AnkurPhani"
     - name: Email
       title: You can email me
-      url: "mailto:contact.ankurphani@gmail.com"
+      url: "mailto:ankur@craveo.in"
     # - name: github
     #   title: Some projects I am working on.
     #   url: "https://github.com/phaniankur"
@@ -192,8 +200,8 @@ params:
   # iconHeight: 35
 
   analytics:
-      google:
-          SiteVerificationTag: "bCbhFHHA--2EbPZDH42SfOL1j8jhWbtnOyoJQICdoyI"
+    google:
+      SiteVerificationTag: "bCbhFHHA--2EbPZDH42SfOL1j8jhWbtnOyoJQICdoyI"
 
   assets:
     disableHLJS: true
