@@ -16,7 +16,9 @@ With SkyScanner, the flight booking market is overly saturated and comparatively
 Building in the consumer space requires high cap-ex. We operated in a budget category and it was difficult to monetise the model.
 
 <!-- ![](/images/a_team.jpeg "deploying some last minute changes") -->
-<img src="/images/a_team.jpeg" title="deploying some last minute changes" alt="deploying some last minute changes" width="70%" />
+<div style="text-align: center;">
+  <img src="/images/a_team.jpeg" title="deploying some last minute changes" alt="deploying some last minute changes" width="70%" />
+</div>
 
 <u>**Remy**</u>
 
@@ -48,7 +50,7 @@ Drafting this on 31st December’25, we have converted two of our design partner
 
 We have shared classroom for 12 school years and are best friends ever since. It was a weird feeling, yet an amazing experience.
 
-<div style="display: flex; gap: 20px;">
+<div class="image-gallery-container">
 
 ![Dishani's wedding](/images/dishani_wedding.png)
 
