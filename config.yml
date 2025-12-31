@@ -180,7 +180,7 @@ params:
       url: "https://x.com/AnkurPhani"
     - name: Email
       title: You can email me
-      url: "mailto:ankur@craveo.in"
+      url: "mailto:phani@craveo.in"
     # - name: github
     #   title: Some projects I am working on.
     #   url: "https://github.com/phaniankur"

@@ -5,7 +5,7 @@ title: "Year Wrapped: 2025"
 
 <u>**New Year**</u>
 
-After dining in at The Imperial, Koramangala, me and my co-founders welcomed 2025 watching sky shots burn from Tamal’s(our friend) rooftop. We received a few orders that day on Craveo app. We were facing high churn rates and the numbers weren’t exciting. Our onboarding funnel had friction.
+After dining in at The Imperial, Koramangala, me and my co-founders welcomed 2025, watched sky shots fire from Tamal’s(our friend) rooftop. We received a few orders that day on Craveo app. We were facing high churn rates and the numbers weren’t exciting. Our onboarding funnel had friction.
 
 We spent most of Jan & Feb optimizing the onboarding funnel because that was the USP of Craveo. Shashank and I spent time to pull more users in the app through our Instagram and reddit campaigns.
 
@@ -17,7 +17,7 @@ Building in the consumer space requires high cap-ex. We operated in a budget cat
 
 <!-- ![](/images/a_team.jpeg "deploying some last minute changes") -->
 <div style="text-align: center;">
-  <img src="/images/a_team.jpeg" title="deploying some last minute changes" alt="deploying some last minute changes" width="70%" />
+  <img src="/images/a_team.jpeg" title="My birthday gift from Shashank" alt="My birthday gift from Shashank" width="70%" />
 </div>
 
 <u>**Remy**</u>
